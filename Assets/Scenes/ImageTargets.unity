@@ -348,13 +348,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: papyrus_qr
+  mTrackableName: papyrus
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Image_Target.xml
-  mAspectRatio: 0.9841733
+  mDataSetPath: Vuforia/Museum_AR.xml
+  mAspectRatio: 0.7941733
   mImageTargetType: 0
   mWidth: 0.075
-  mHeight: 0.073813
+  mHeight: 0.059563
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -391,8 +391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 183229471}
   mHiddenRoot: {fileID: 0}
-  mTargetName: papyrus_qr
-  mDatasetName: Vuforia/Image_Target.xml
+  mTargetName: papyrus
+  mDatasetName: Vuforia/Museum_AR.xml
   mCastedBehaviour: {fileID: 183229471}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -633,19 +633,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204748921}
-  m_LocalRotation: {x: 0.26724377, y: -0.24448073, z: 0.07029561, w: 0.9294453}
-  m_LocalPosition: {x: 0, y: 0, z: 0.87787575}
-  m_LocalScale: {x: 0.0016005482, y: 0.0016005483, z: 0.0016005483}
+  m_LocalRotation: {x: 0.108665, y: -0.108288184, z: 0.0034492582, w: 0.98815674}
+  m_LocalPosition: {x: 0, y: 0, z: -0.038846}
+  m_LocalScale: {x: 0.00020593236, y: 0.00020593239, z: 0.00020593239}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1791595524}
   - {fileID: 1193506372}
   - {fileID: 1782311627}
   m_Father: {fileID: 703326470}
-  m_LocalEulerAnglesHint: {x: 32.083, y: -29.474, z: 0}
+  m_LocalEulerAnglesHint: {x: 12.445, y: -12.615, z: -0.981}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3.914112, y: 1.3391445}
+  m_AnchoredPosition: {x: -0.213, y: 0.13592}
   m_SizeDelta: {x: 1175.8, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &204748923
@@ -721,7 +721,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4c06b8f1e83fa164fb7b0249bfdc7bbf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fbee15838c7af4043a0a10f1ee4a68f2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -819,7 +819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d051ba655be2eb64b98c45b6d8ceddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VoiceOver: {fileID: 3414734495268982122}
+  VoiceOver: {fileID: 204748926}
 --- !u!1 &278831652
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,13 +910,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: nefertitis_qr
+  mTrackableName: nefertitis
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Image_Target.xml
-  mAspectRatio: 0.9510933
+  mDataSetPath: Vuforia/Museum_AR.xml
+  mAspectRatio: 1.4051466
   mImageTargetType: 0
   mWidth: 0.075
-  mHeight: 0.071332
+  mHeight: 0.105386
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -935,6 +935,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 4367915953692649176}
   - {fileID: 4380992891494346111}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -952,8 +953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 278831655}
   mHiddenRoot: {fileID: 0}
-  mTargetName: nefertitis_qr
-  mDatasetName: Vuforia/Image_Target.xml
+  mTargetName: nefertitis
+  mDatasetName: Vuforia/Museum_AR.xml
   mCastedBehaviour: {fileID: 278831655}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1908,13 +1909,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: stele_qr
+  mTrackableName: stele
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Image_Target.xml
-  mAspectRatio: 0.9841733
+  mDataSetPath: Vuforia/Museum_AR.xml
+  mAspectRatio: 1.4122666
   mImageTargetType: 0
   mWidth: 0.075
-  mHeight: 0.073813
+  mHeight: 0.10592
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1951,8 +1952,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 703326469}
   mHiddenRoot: {fileID: 0}
-  mTargetName: stele_qr
-  mDatasetName: Vuforia/Image_Target.xml
+  mTargetName: stele
+  mDatasetName: Vuforia/Museum_AR.xml
   mCastedBehaviour: {fileID: 703326469}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2300,13 +2301,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: tut_qr
+  mTrackableName: Tut
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Image_Target.xml
-  mAspectRatio: 0.9841733
+  mDataSetPath: Vuforia/Museum_AR.xml
+  mAspectRatio: 1.2777734
   mImageTargetType: 0
   mWidth: 0.075
-  mHeight: 0.073813
+  mHeight: 0.09583301
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2342,8 +2343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1025426727}
   mHiddenRoot: {fileID: 0}
-  mTargetName: tut_qr
-  mDatasetName: Vuforia/Image_Target.xml
+  mTargetName: Tut
+  mDatasetName: Vuforia/Museum_AR.xml
   mCastedBehaviour: {fileID: 1025426727}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -3103,19 +3104,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108540257}
-  m_LocalRotation: {x: -0.06408414, y: -0.9344773, z: 0.21936892, w: -0.27298853}
+  m_LocalRotation: {x: -0.025594125, y: -0.96741086, z: 0.22710001, w: -0.10902702}
   m_LocalPosition: {x: 0, y: 0, z: 0.27}
-  m_LocalScale: {x: 0.00066510134, y: 0.00066510134, z: 0.00066510134}
+  m_LocalScale: {x: 0.0008022452, y: 0.0008022452, z: 0.0008022452}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 195382427}
   - {fileID: 960613940}
   - {fileID: 1838587}
   m_Father: {fileID: 4265223825374078561}
-  m_LocalEulerAnglesHint: {x: 26.422, y: -212.569, z: 0}
+  m_LocalEulerAnglesHint: {x: 26.422, y: -192.86, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.998, y: 0.625}
+  m_AnchoredPosition: {x: 0.9980011, y: 0.625}
   m_SizeDelta: {x: 1175.8, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2108540259
@@ -3191,7 +3192,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9f7cbc5ba40f6e94592fcc8d5aa8ebdd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 11c5d8febbc11c14198bf0712c2f03e5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3289,7 +3290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d051ba655be2eb64b98c45b6d8ceddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VoiceOver: {fileID: 3414734495268982122}
+  VoiceOver: {fileID: 2108540262}
 --- !u!114 &436181321557162730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3425,8 +3426,8 @@ Transform:
   m_GameObject: {fileID: 8164078559373182082}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.34, y: 0.3, z: 0.37}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: -0.081, y: 0.013, z: 0.079}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450651615651553}
@@ -3729,7 +3730,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4d91446c88e6f294690c3a401fbf1bc7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e3e4021ea5ebec2429ad786e6327d00d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3853,8 +3854,8 @@ Transform:
   m_GameObject: {fileID: 4315501149238878205}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: 0.041, y: 0.111, z: -0.069}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4096122750166447135}
@@ -3870,7 +3871,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1b3ba384eb10224418f9699838cf6c96, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 02c0ed507fef5f54bae9dd27b2c5def1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3968,7 +3969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d051ba655be2eb64b98c45b6d8ceddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VoiceOver: {fileID: 3414734495268982122}
+  VoiceOver: {fileID: 3557473227302618646}
 --- !u!4 &3800015404186016807
 Transform:
   m_ObjectHideFlags: 0
@@ -3978,8 +3979,8 @@ Transform:
   m_GameObject: {fileID: 5335202731879239452}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.22, y: 0, z: -0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalPosition: {x: -0.2057, y: 0.0142, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4380992891494346111}
@@ -4081,19 +4082,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7338118647369279153}
-  m_LocalRotation: {x: 0.27633393, y: -0, z: -0, w: 0.9610617}
-  m_LocalPosition: {x: 0, y: 0, z: 0.179}
-  m_LocalScale: {x: 0.0011489968, y: 0.0011489968, z: 0.0011489968}
+  m_LocalRotation: {x: 0.06336938, y: -0, z: -0, w: 0.99799013}
+  m_LocalPosition: {x: 0, y: 0, z: 0.052}
+  m_LocalScale: {x: 0.00014867546, y: 0.00014867546, z: 0.00014867546}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2048912096058125265}
   - {fileID: 1087378602059163185}
   - {fileID: 675557051605985474}
   m_Father: {fileID: 183229472}
-  m_LocalEulerAnglesHint: {x: 32.083, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.266, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.892, y: 1.289}
+  m_AnchoredPosition: {x: -0.404, y: 0.123}
   m_SizeDelta: {x: 1175.8, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3970391260340283962
@@ -4189,19 +4190,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3970391260340283962}
-  m_LocalRotation: {x: 0.19539727, y: -0.67957336, z: 0.19539727, w: 0.67957336}
-  m_LocalPosition: {x: 0, y: 0, z: 1.08}
-  m_LocalScale: {x: 0.0008468253, y: 0.0008468253, z: 0.0008468253}
+  m_LocalRotation: {x: 0.27633348, y: -0, z: -0, w: 0.9610619}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0485}
+  m_LocalScale: {x: 0.0001794888, y: 0.00017948872, z: 0.00017948874}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7897885526598922511}
   - {fileID: 1866023894413706015}
   - {fileID: 7385199392226168090}
-  m_Father: {fileID: 4380992891494346111}
+  m_Father: {fileID: 278831656}
   m_LocalEulerAnglesHint: {x: 32.083, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.164, y: 0.611}
+  m_AnchoredPosition: {x: -0.1813, y: 0.1473}
   m_SizeDelta: {x: 1175.8, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &4380992891494346111
@@ -4213,12 +4214,11 @@ Transform:
   m_GameObject: {fileID: 4001370746364917701}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.022, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3800015404186016807}
-  - {fileID: 4367915953692649176}
   m_Father: {fileID: 278831656}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &4899581811704520200
