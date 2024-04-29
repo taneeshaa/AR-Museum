@@ -3756,7 +3756,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   introAudio: {fileID: 5402284361600620577}
-  Artefacts: {fileID: 452703879553372123}
+  Artefacts: {fileID: 6475477825581625211, guid: 3ccab474d63b6f5458c387c2980a23e4,
+    type: 3}
 --- !u!82 &5402284361600620577
 AudioSource:
   m_ObjectHideFlags: 0

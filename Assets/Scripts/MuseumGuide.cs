@@ -19,6 +19,6 @@ public class MuseumGuide : MonoBehaviour
     
     private void EnableArtefacts()
     {
-        Artefacts.SetActive(true);
+        Instantiate(Artefacts);
     }
 }

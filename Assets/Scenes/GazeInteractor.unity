@@ -515,7 +515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400445849}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.8527951, z: 0, w: -0.5222456}
+  m_LocalRotation: {x: 0, y: 0.9201501, z: 0, w: -0.39156586}
   m_LocalPosition: {x: 0.017477, y: 7.14, z: 0.22814}
   m_LocalScale: {x: 1.3041, y: 1.3041, z: 1.3041}
   m_ConstrainProportionsScale: 0
@@ -923,8 +923,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The lemon tree's leaves are utilized in traditional medicine for their
-    potential antimicrobial and anti-inflammatory properties.
+  m_text: "Nefertiti, the iconic queen of ancient Egypt, renowned for her beauty
+    and powerful influence during the reign of Akhenaten, embodies elegance and intrigue
+    in Egyptian history.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -951,7 +952,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.65
+  m_fontSize: 0.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1056,7 +1057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &483382554
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1067,7 +1068,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3674df8a7a87b3b48b6487ecee156a1e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e3e4021ea5ebec2429ad786e6327d00d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1198,7 +1199,7 @@ Transform:
   m_GameObject: {fileID: 483382553}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1.0000001}
-  m_LocalPosition: {x: -0.9360132, y: 0.22058123, z: 1.62}
+  m_LocalPosition: {x: -1.75, y: 0.22058123, z: 1.62}
   m_LocalScale: {x: 0.11695, y: 0.11695, z: 0.11695}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1371,7 +1372,7 @@ Transform:
   m_GameObject: {fileID: 573911141}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1400,7 +1401,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573911141}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
@@ -1447,7 +1448,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620890543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.9158326, z: 0, w: -0.40156037}
+  m_LocalRotation: {x: 0, y: 0.996651, z: 0, w: -0.08177287}
   m_LocalPosition: {x: 0.017477, y: 8.95, z: 0.22814}
   m_LocalScale: {x: 1.3041, y: 1.3041, z: 1.3041}
   m_ConstrainProportionsScale: 0
@@ -1593,7 +1594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &711111006
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1604,7 +1605,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7694b95d7d8b93741b4d042d8039afc3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 02c0ed507fef5f54bae9dd27b2c5def1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1735,7 +1736,7 @@ Transform:
   m_GameObject: {fileID: 711111005}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1.0000001}
-  m_LocalPosition: {x: 3.1050165, y: 0.22058123, z: 1.62}
+  m_LocalPosition: {x: 1.7093464, y: 0.22058123, z: 1.62}
   m_LocalScale: {x: 0.11695, y: 0.11695, z: 0.11695}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2003,7 +2004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1024031203
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2014,7 +2015,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d1fe431d11e900047b1ba86d28393593, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fbee15838c7af4043a0a10f1ee4a68f2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2145,7 +2146,7 @@ Transform:
   m_GameObject: {fileID: 1024031202}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1.0000001}
-  m_LocalPosition: {x: 1.6656702, y: 0.22058123, z: 1.62}
+  m_LocalPosition: {x: 0.27, y: 0.22058123, z: 1.62}
   m_LocalScale: {x: 0.11695, y: 0.11695, z: 0.11695}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2504,8 +2505,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Aloe vera is commonly used for its soothing properties in treating sunburns,
-    minor wounds, and skin irritations.\r"
+  m_text: "Tutankhamun, the boy pharaoh whose tomb captivated the world with its
+    treasures, offers a mesmerizing glimpse into ancient Egyptian splendor and mystery.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2532,7 +2533,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.7
+  m_fontSize: 0.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3040,8 +3041,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bamboo extracts have been explored for their potential in traditional
-    medicine for conditions such as fevers, inflammation, and respiratory issues.\r"
+  m_text: In ancient Egypt, a stele served as a stone slab inscribed with hieroglyphics
+    or images, used primarily for commemorating significant events, honoring gods,
+    or recording royal decrees.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3276,8 +3278,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Basil is valued in traditional medicine for its potential to aid digestion,
-    alleviate stress, and possess antimicrobial properties.\r"
+  m_text: "\"Papyrus\" denotes the ancient Egyptian writing material crafted from
+    the pith of the papyrus plant, widely employed for scrolls and documents due
+    to its durability and abundance.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3304,7 +3307,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.65
+  m_fontSize: 0.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3416,7 +3419,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837943527}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.9996568, z: 0, w: 0.026197968}
+  m_LocalRotation: {x: 0, y: 0.97616124, z: 0, w: 0.2170468}
   m_LocalPosition: {x: 0.017477, y: 8.95, z: 0.22814}
   m_LocalScale: {x: 1.3041, y: 1.3041, z: 1.3041}
   m_ConstrainProportionsScale: 0
@@ -3581,7 +3584,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005387278}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.9736889, z: 0, w: 0.22788164}
+  m_LocalRotation: {x: 0, y: 0.91802394, z: 0, w: 0.39652508}
   m_LocalPosition: {x: 0, y: 8.43, z: 0.238}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3619,7 +3622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &2088834644
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3630,7 +3633,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e06fe7f654c1c64eaf1cccea350f60b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 11c5d8febbc11c14198bf0712c2f03e5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3761,7 +3764,7 @@ Transform:
   m_GameObject: {fileID: 2088834643}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1.0000001}
-  m_LocalPosition: {x: -0.20841211, y: 0.22058123, z: 1.62}
+  m_LocalPosition: {x: -0.77239895, y: 0.22058123, z: 1.62}
   m_LocalScale: {x: 0.11695, y: 0.11695, z: 0.11695}
   m_ConstrainProportionsScale: 0
   m_Children:

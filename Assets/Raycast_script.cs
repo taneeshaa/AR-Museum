@@ -30,7 +30,7 @@ public class Raycast_script : MonoBehaviour
             {
                 var hitPose = hits[0].pose;
                 Vector3 hitPosition = hitPose.position;
-                hitPosition.y += 1f;
+                hitPosition.y += 0.4f;
                 if(!objectSpawned )
                 {
                     spawnedObject = Instantiate(spawnPrefab, hitPosition, spawnPrefab.transform.rotation);
