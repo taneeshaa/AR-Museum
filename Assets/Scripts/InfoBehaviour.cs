@@ -9,6 +9,7 @@ public class InfoBehaviour : MonoBehaviour
     [SerializeField]
     Transform SectionInfo;
     [SerializeField] public AudioSource voiceOver;
+    [SerializeField] Animator anim;
 
     Vector3 desiredScale = Vector3.zero;
     void Update()
@@ -18,9 +19,13 @@ public class InfoBehaviour : MonoBehaviour
     public void OpenInfo()
     {
         desiredScale = Vector3.one;
+        //test voiceover stop
+        anim.SetBool("isTalking", false);
+        //voiceOver.Stop();
     }
     public void CloseInfo()
     {
+        anim.SetBool("isTalking", true);
         desiredScale = Vector3.zero;
         voiceOver.Play();
     }

@@ -14,7 +14,7 @@ public class Raycast_script : MonoBehaviour
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
     ARPlaneManager planeManager;
     [SerializeField] ARSession arSession;
-    [SerializeField] Slider slider;
+    //[SerializeField] Slider slider;
     void Start()
     {
         objectSpawned = false;
@@ -30,7 +30,7 @@ public class Raycast_script : MonoBehaviour
             {
                 var hitPose = hits[0].pose;
                 Vector3 hitPosition = hitPose.position;
-                hitPosition.y += 0.2f;
+                hitPosition.y += 1f;
                 if(!objectSpawned )
                 {
                     spawnedObject = Instantiate(spawnPrefab, hitPosition, spawnPrefab.transform.rotation);
@@ -58,7 +58,7 @@ public class Raycast_script : MonoBehaviour
         
     }
 
-    public void adjustScale()
+    /*public void adjustScale()
     {
         Debug.Log(slider.value);
         if(slider.value > 0f )
@@ -67,5 +67,5 @@ public class Raycast_script : MonoBehaviour
 
         }
 
-    }
+    }*/
 }
