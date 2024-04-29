@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="nefertitis" size="0.075000 0.105386" />
+    <ImageTarget name="papyrus" size="0.075000 0.059563" />
+    <ImageTarget name="stele" size="0.075000 0.105920" />
+    <ImageTarget name="Tut" size="0.075000 0.095833" />
+  </Tracking>
+</QCARConfig>
